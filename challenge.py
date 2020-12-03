@@ -1,26 +1,45 @@
 # Duplicate this file, then try to complete as much as you can. 
 def print_name():
-    # Your code here
+    print("Rita")
     return
+#Multiply the numbers 8435 and 9983663 and print the answer
 
 def multiply_numbers():
-    # Your code here
+    print(8435*9983663)
     return
-
+#Print the area of a square given the side length
 def area_square(side_length):
-    # Your code here
+    side_length = 5
+    print(side_length * side_length)
     return
-
+Print the numbers 1 to 100
 def numbers():
-    # Your code here
+    for x in range(1, 101):
+        print(x)
+
     return
 
 def passing_grade(percent):
-    # Your code here
+#Create a function that returns a grade based on passing in a score
+    #“A” = 95-100
+    #“B” = 90-95
+    #“C” = 80-90
+    #“F” everything else
+    Grade = int(input("What is your passing score?"))
+    for Grade in range(95,101):
+        print("Your grade is A)
+    for Grade in range(90, 95):
+        print("Your grade is B")
+    for  Grade in range(80,90):
+        print("Your grade is C")
+    if Grade < 80:
+        print("Your grade is F")
+
     return
 
 def mean_list():
-    # Your code here
+   #Create a function that returns the mean of a python list of numbers
+   
     return
 
 
